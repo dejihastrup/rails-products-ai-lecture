@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.7.3"
+ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.4", ">= 7.1.4.1"
@@ -22,9 +22,13 @@ gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+gem "ruby-openai"
+gem "solid_cable"
+gem "solid_queue"
+gem 'neighbor'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+# gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
